@@ -3,7 +3,7 @@ name: 'San Francisco Daily Times'
 description: "Keeping You Informed, Every Step of the Way"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
+baseurl: '/socialdata2024-group31.github.io'
 disqus: 'demowebsite'
 email: 'sfdt@gmail.com'
 mailchimp-list: 'https:/sfdt.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
