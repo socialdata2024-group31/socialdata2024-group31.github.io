@@ -41,11 +41,7 @@ Throughout the years, The Tenderloin has been the city area where most serious c
 
 While drug crimes for personal use have been slowly decriminalized from 2014 and onwards, The Tenderloin still remains a hotspot for drug/narcotic incidents. There was a decrease in the final years of 2016 and 2017 when marijuana was legalized for recreational use. During this time, marijuana-related incidents died out throughout the entire city.
 
-<iframe src="/assets/figures/marijuana.html" width="100%" height="500" style="border:none"></iframe>
-
 So, while these crimes are often organized, the significant shifts in drug policies in 2014 and 2016 do not seem to affect where drug-related incidents occur (such as relocating to different city areas), but rather only the frequency of the incidents. The same goes for other crimes like assaults and burglaries. While they mostly occur in the same city area as drug sales, they are not shifting to other city areas with the decriminalization of drugs.
-
-<iframe src="/assets/figures/assault.html" width="100%" height="500" style="border:none"></iframe>
 
 [1]: https://www.kqed.org/news/11803642/in-a-changing-city-how-does-the-tenderloin-stay-the-same "In a Changing City, How Does the Tenderloin Stay the Same?"
 [2]: https://en.wikipedia.org/wiki/Tenderloin,_San_Francisco "Tenderloin, San Francisco"
