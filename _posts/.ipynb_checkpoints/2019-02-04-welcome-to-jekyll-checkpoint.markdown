@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to San Francisco Dailty Times!"
+title:  "Welcome to Jekyll!"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
 ---

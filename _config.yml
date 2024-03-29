@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'San Francisco Daily Times'
+description: "Keeping You Informed, Every Step of the Way"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/mundana-theme-jekyll'
 disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+email: 'sfdt@gmail.com'
+mailchimp-list: 'https:/sfdt.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,22 +19,19 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
+    bao:
+      name:           Bao Chi 
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Co-chief editor of the San Francisco Daily Times. The shorter one."
+      email:          bao@sfdt.com
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
+
+    william:
+      name:           William 
       avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+      bio:            "Co-chief editor of the San Francisco Daily Times. The taller one."
+      email:          william@sfdt.com
+
 # Defaults
 defaults:
 
@@ -43,7 +40,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: bao
       avatar: /assets/images/avatar1.jpg
       
   # all pages
