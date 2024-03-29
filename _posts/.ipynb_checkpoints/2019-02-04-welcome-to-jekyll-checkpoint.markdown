@@ -1,25 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-categories: [ Jekyll ]
+title:  "Data Visualization"
+categories: [Social Data Analysis]
 image: assets/images/demo1.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet eros nec nibh convallis dictum. Vestibulum non urna tellus. Vestibulum vel nisl elit. Phasellus commodo ultricies massa in cursus. Aenean id ligula feugiat, elementum leo et, consectetur mi. Proin eget feugiat est, hendrerit auctor felis. Integer facilisis finibus nunc, sit amet tempus risus pharetra ut. Nunc elementum nulla sit amet sagittis tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Nunc id quam in ligula hendrerit hendrerit eu a ante. Aenean at metus risus.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Integer tristique iaculis efficitur. Nam tempor ligula quam, eu convallis velit vehicula fermentum. Quisque sit amet tortor posuere, congue sem ac, rhoncus libero. Fusce dapibus velit at turpis vehicula, in volutpat orci convallis. Ut auctor sapien nec nunc porttitor, at tincidunt diam volutpat. Duis ultricies vulputate porttitor. Duis vel tellus eu magna condimentum consectetur. Donec pellentesque ante quis dolor sagittis, eu suscipit metus facilisis. Aliquam non dignissim erat. Quisque mollis, est ac lobortis commodo, mauris nisl vehicula ipsum, eget semper magna sem eu felis.
 
-Jekyll also offers powerful support for code snippets:
+Curabitur suscipit fermentum mattis. Maecenas varius lorem non metus scelerisque porttitor. Nullam id venenatis libero, in facilisis lectus. Integer nunc nibh, tincidunt sed ante nec, aliquam elementum nulla. Quisque arcu lacus, pellentesque vel vulputate quis, rhoncus ut quam. Nam luctus suscipit est sed pretium. Duis tortor augue, consectetur aliquam orci nec, ultrices finibus mauris. Phasellus cursus augue a est convallis, non sagittis erat aliquet. Donec sem nulla, bibendum quis erat vitae, luctus elementum mi. Mauris orci magna, finibus volutpat quam nec, suscipit posuere augue. Cras venenatis metus justo, sit amet placerat diam blandit eu. Duis quis neque ut ligula auctor eleifend ac a arcu. Morbi nec nisi a urna consectetur auctor vitae sed mauris. Pellentesque vitae nibh cursus, commodo felis et, accumsan ipsum. Vestibulum malesuada nunc nec tortor sollicitudin lobortis. Proin congue, augue eget rhoncus fringilla, erat dolor ultricies risus, a scelerisque justo nisl vitae justo.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Cras ex sem, mollis id dui in, iaculis porttitor felis. Aenean faucibus nisl feugiat sem interdum tristique. Nam neque urna, pretium vitae turpis id, ornare efficitur mauris. Fusce dignissim ipsum vitae tincidunt porta. Nullam feugiat turpis vel nisi vulputate volutpat. Pellentesque viverra sem vehicula massa dapibus, sed fermentum felis feugiat. Proin mattis tellus ante, id convallis justo consequat id. Aliquam dolor eros, ultrices sed neque id, fermentum faucibus elit. Cras at neque aliquet, sodales nisl pharetra, consequat sem. Morbi sit amet turpis libero. Phasellus viverra felis lacus, ut tristique justo convallis sit amet. Sed felis mauris, malesuada eu arcu ut, tristique blandit libero. Vestibulum ut leo pharetra, vestibulum lacus id, aliquet massa.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Vestibulum mauris turpis, dapibus id sem ac, rutrum ullamcorper mi. Sed diam justo, fringilla sed aliquam tincidunt, fringilla sit amet purus. Phasellus eu odio blandit, porta enim sodales, hendrerit mi. Fusce placerat luctus risus, eu aliquam ipsum scelerisque id. Vivamus non arcu tincidunt, auctor tellus vel, commodo nibh. Morbi erat sapien, condimentum a vehicula ac, fringilla non neque. Suspendisse luctus erat justo, ut finibus lectus fringilla eget. Integer scelerisque massa sed facilisis tincidunt. Vivamus non mauris nec felis ultricies sollicitudin sed nec felis. Integer massa purus, gravida ut nisi vel, sodales porttitor urna. Vestibulum et metus ut urna rutrum elementum at vel eros. Sed quis turpis tellus.
