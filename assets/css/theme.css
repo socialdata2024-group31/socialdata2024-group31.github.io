@@ -1,7 +1,16 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
-
+div.lb-outerContainer {
+	width: 800px!important;
+}
+div.lb-outerContainer img {
+	width: 100%!important;
+	height: 100%!important;
+}
+iframe {
+	border:none;
+}
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
