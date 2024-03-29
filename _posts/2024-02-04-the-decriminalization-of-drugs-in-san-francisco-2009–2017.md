@@ -2,7 +2,7 @@
 layout: post
 title: "The decriminalization of drugs in San Francisco from 2009 to 2017"
 categories: [Social data analysis]
-image: assets/images/img5.png
+image: assets/images/img7.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet eros nec nibh convallis dictum. Vestibulum non urna tellus. Vestibulum vel nisl elit. Phasellus commodo ultricies massa in cursus. Aenean id ligula feugiat, elementum leo et, consectetur mi. Proin eget feugiat est, hendrerit auctor felis. Integer facilisis finibus nunc, sit amet tempus risus pharetra ut. Nunc elementum nulla sit amet sagittis tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Nunc id quam in ligula hendrerit hendrerit eu a ante. Aenean at metus risus.
