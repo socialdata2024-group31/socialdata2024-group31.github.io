@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Demystifying Data Analysis: Essential Concepts and Tools"
+title: "Demystifying Data Analysis: Essential Concepts and Tools"
 author: william
 categories: [Social data analysis]
-image: assets/images/12.jpg
+image: assets/images/img8.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet eros nec nibh convallis dictum. Vestibulum non urna tellus. Vestibulum vel nisl elit. Phasellus commodo ultricies massa in cursus. Aenean id ligula feugiat, elementum leo et, consectetur mi. Proin eget feugiat est, hendrerit auctor felis. Integer facilisis finibus nunc, sit amet tempus risus pharetra ut. Nunc elementum nulla sit amet sagittis tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Nunc id quam in ligula hendrerit hendrerit eu a ante. Aenean at metus risus.
