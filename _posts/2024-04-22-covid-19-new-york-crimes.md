@@ -9,16 +9,16 @@ image: assets/images/covid19.webp
     function adjustIframeHeight() {
         var iframe = document.getElementById("crimeTimeline");
         var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
-        iframe.style.height = iframeHeight + 4 + "px";
+        iframe.style.height = iframeHeight + 28 + "px";
         var iframeContainer = document.getElementById("iframeContainer");
-        iframeContainer.style.height = iframeHeight + 4 + "px";
+        iframeContainer.style.height = iframeHeight + 28 + "px";
     }
 </script>
 
 How COVID-19 changed crime in New York City.
 
 <div id="iframeContainer" style="position: relative; width: 100%; text-align: center;">
-    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" style="width: 1080px; margin: 0 auto; display: block; border: none; position: absolute; left: -175px;" onload="adjustIframeHeight()"></iframe>
+    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 1748px; width: 1080px; margin: 0 auto; display: block; border: none; position: absolute; left: -175px;" onload="adjustIframeHeight()"></iframe>
 </div>
 
 More blah
