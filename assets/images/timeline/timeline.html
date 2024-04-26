@@ -7,12 +7,13 @@
             padding: 0;
         }
         .img {
-            padding: 8px;
+            padding: 0px;
             width: 100%;
         }
         .img iframe {
             width: 100%;
             height: 250px;
+            border: none;
         }
         body {
             background-color: #fff;
@@ -240,7 +241,7 @@
 				<div class="timeline-text d-flex-2">
 					<span>
 						<h6>April</h6> - The lockdown has an immediate impact on the crime rate in the city. Most criminal categories drop by 30 to 70 percent, while there is a small increase in burglaries.
-                        <div class="img"><img src="/assets/images/march-april.png"></div>
+                        <div class="img" style="margin-top:20px"><img src="/assets/images/march-april.png"></div>
 					</span>
 					<div class="t-square"></div>
 				</div>
@@ -258,9 +259,18 @@
 
             <!--SINGLE TIMELINE-->
 			<div class="single-timeline d-flex-2">
-				<div class="timeline-blank"></div>
+				<div class="timeline-blank">
+                    <div style="padding-left:30px">
+                        <span>
+                            <strong>Burglaries: May 20 to July 10 2020</strong>
+                            <div class="img"><iframe id="crimeTimeline" src="/assets/maps/burglary_map.html" style="" ></iframe></div>
+                            Burglaries - Text text text
+                        </span>
+                    </div>
+                </div>
 				<div class="timeline-text d-flex-2">
                     <span>
+                        <strong>Public Order Offenses: May 20 to July 10 2020</strong>
                         <div class="img"><iframe id="crimeTimeline" src="/assets/maps/public_order_offenses_map.html" style="" ></iframe></div>
                         Public order offenses - Text text text
                     </span>
@@ -270,10 +280,6 @@
 			<div class="single-timeline d-flex-2">
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
-                    <span>
-                        <div class="img"><iframe id="crimeTimeline" src="/assets/maps/burglary_map.html" style="" ></iframe></div>
-                        Burglaries - Text text text
-                    </span>
 				</div>
 			</div>
 
