@@ -74,7 +74,7 @@
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <style>
-      #map_20ce2f972de989de24a1af1dda5bbf7a {
+      #map_291dbc390a9a7aede198f455a30a7e19 {
         position: relative;
         width: 100%;
         height: 100%;
@@ -183,11 +183,11 @@
     </script>
   </head>
   <body>
-    <div class="folium-map" id="map_20ce2f972de989de24a1af1dda5bbf7a"></div>
+    <div class="folium-map" id="map_291dbc390a9a7aede198f455a30a7e19"></div>
   </body>
   <script>
-    var map_20ce2f972de989de24a1af1dda5bbf7a = L.map(
-      "map_20ce2f972de989de24a1af1dda5bbf7a",
+    var map_291dbc390a9a7aede198f455a30a7e19 = L.map(
+      "map_291dbc390a9a7aede198f455a30a7e19",
       {
         center: [40.751436786137035, -73.92255884577315],
         crs: L.CRS.EPSG3857,
@@ -197,7 +197,7 @@
       }
     );
 
-    var tile_layer_285ba832c16bdb40f7280feba312872a = L.tileLayer(
+    var tile_layer_fbc7b8bcc96b8119053c23106aed3a9b = L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
         attribution:
@@ -213,8 +213,8 @@
       }
     );
 
-    tile_layer_285ba832c16bdb40f7280feba312872a.addTo(
-      map_20ce2f972de989de24a1af1dda5bbf7a
+    tile_layer_fbc7b8bcc96b8119053c23106aed3a9b.addTo(
+      map_291dbc390a9a7aede198f455a30a7e19
     );
 
     var times = [
@@ -223,12 +223,12 @@
       40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52,
     ];
 
-    map_20ce2f972de989de24a1af1dda5bbf7a.timeDimension = L.timeDimension({
+    map_291dbc390a9a7aede198f455a30a7e19.timeDimension = L.timeDimension({
       times: times,
       currentTime: new Date(1),
     });
 
-    var heat_map_232a9b83ae2a742f384696ce5b612ed5Control =
+    var heat_map_af80c17df90d11caa787cb557013696bControl =
       new L.Control.TimeDimensionCustom(
         [
           "2020-05-20",
@@ -304,9 +304,9 @@
           timeSliderDrapUpdate: false,
           timeSteps: 1,
         }
-      ).addTo(map_20ce2f972de989de24a1af1dda5bbf7a);
+      ).addTo(map_291dbc390a9a7aede198f455a30a7e19);
 
-    var heat_map_232a9b83ae2a742f384696ce5b612ed5 = new TDHeatmap(
+    var heat_map_af80c17df90d11caa787cb557013696b = new TDHeatmap(
       [
         [
           [40.83618504400005, -73.94409181099996],
@@ -1725,8 +1725,44 @@
       }
     );
 
-    heat_map_232a9b83ae2a742f384696ce5b612ed5.addTo(
-      map_20ce2f972de989de24a1af1dda5bbf7a
+    heat_map_af80c17df90d11caa787cb557013696b.addTo(
+      map_291dbc390a9a7aede198f455a30a7e19
+    );
+
+    var marker_7ae577ccc806a266c65698302cca3ed4 = L.marker(
+      [40.6829, -73.9751],
+      {}
+    ).addTo(map_291dbc390a9a7aede198f455a30a7e19);
+
+    marker_7ae577ccc806a266c65698302cca3ed4.bindTooltip(
+      `<div>
+                     Barclays Center, Brooklyn
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_edcfbd9563e8753c2d544137e5df72c3 = L.marker(
+      [40.7143, -74.0027],
+      {}
+    ).addTo(map_291dbc390a9a7aede198f455a30a7e19);
+
+    marker_edcfbd9563e8753c2d544137e5df72c3.bindTooltip(
+      `<div>
+                     Foley Square, Manhattan
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_e77413fef2d3d73ec5fb407b4dbe96c6 = L.marker(
+      [40.814, -73.9442],
+      {}
+    ).addTo(map_291dbc390a9a7aede198f455a30a7e19);
+
+    marker_e77413fef2d3d73ec5fb407b4dbe96c6.bindTooltip(
+      `<div>
+                     Adam Clayton Powell Jr. State Office Building, Harlem
+                 </div>`,
+      { sticky: true }
     );
   </script>
 </html>
