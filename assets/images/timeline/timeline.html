@@ -142,7 +142,10 @@
             padding-right: 30px;
             text-align: right;
         }
-        
+        div.img-header {
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
         @media all and (max-width: 991px) {
         }
         @media all and (max-width: 768px) {
@@ -241,7 +244,8 @@
 				<div class="timeline-text d-flex-2">
 					<span>
 						<h6>April</h6> - The lockdown has an immediate impact on the crime rate in the city. Most criminal categories drop by 30 to 70 percent, while there is a small increase in burglaries.
-                        <div class="img" style="margin-top:20px"><img src="/assets/images/march-april.png"></div>
+                        <div class="img-header" style="margin-top:20px">Crime Rates from March 2020 to April 2020</div>
+                        <div class="img"><img src="/assets/images/march-april.png"></div>
 					</span>
 					<div class="t-square"></div>
 				</div>
@@ -262,7 +266,7 @@
 				<div class="timeline-blank">
                     <div style="padding-left:30px">
                         <span>
-                            <strong>Burglaries: May 20 to July 10 2020</strong>
+                            <div class="img-header">Burglaries: May 20 to July 10 2020</div>
                             <div class="img"><iframe id="crimeTimeline" src="/assets/maps/burglary_map.html" style="" ></iframe></div>
                             Burglaries - Text text text
                         </span>
@@ -270,7 +274,7 @@
                 </div>
 				<div class="timeline-text d-flex-2">
                     <span>
-                        <strong>Public Order Offenses: May 20 to July 10 2020</strong>
+                        <div class="img-header">Public Order Offenses: May 20 to July 10 2020</div>
                         <div class="img"><iframe id="crimeTimeline" src="/assets/maps/public_order_offenses_map.html" style="" ></iframe></div>
                         Public order offenses - Text text text
                     </span>
