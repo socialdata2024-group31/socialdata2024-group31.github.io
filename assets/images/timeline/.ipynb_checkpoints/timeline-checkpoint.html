@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<head>
+    <title>Timeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .img {
+            padding: 0px;
+            width: 100%;
+        }
+        .img iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+        }
+        body {
+            background-color: #fff;
+            font-family: "Lora", "Inter", sans-serif;
+        }
+        
+        ul {
+            list-style: none;
+            margin: 0 !important;
+        }
+        
+        a {
+            text-decoration: none !important;
+            display: inline-block;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        button:focus {
+            outline: none;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+        p {
+            font-size: 14px;
+            line-height: 26px;
+            margin: 0;
+        }
+        span {
+            line-height: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            padding: 0 15px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .timelines h2 {
+            text-align: center;
+            color: rgb(33, 37, 41);
+            font-weight: 600;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+        .d-flex-2 {
+            display: flex;
+            align-items: center;
+        }
+        .all-timelines {
+            position: relative;
+        }
+        .timelines h2 {
+            text-align: center;
+            color: rgb(33, 37, 41);
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        .all-timelines::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 100%;
+            width: 2px;
+            background: #efa22f;
+            top: 20px;
+        }
+        .single-timeline {
+            margin-bottom: 22px;
+        }
+        .timeline-blank {
+            width: 50%;
+        }
+        .timeline-text {
+            width: 50%;
+            padding-left: 30px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .timeline-text h6 {
+            color: rgb(33, 37, 41);
+            font-weight: 900;
+            display: inline-block;
+            font-size: 1rem;
+        }
+        .timeline-text span {
+            color: rgb(33, 37, 41);
+            display: block;
+            width: 100%;
+        }
+        .single-timeline:nth-child(even) .timeline-text span {
+            text-align: right;
+        }
+        .t-square {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: -6px;
+            background: #efa22f;
+        }
+        .single-timeline:nth-child(even) {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+        .single-timeline:nth-child(even) .t-square {
+            right: -6px;
+            left: unset;
+        }
+        .single-timeline:nth-child(even) .timeline-text {
+            padding-left: 0;
+            padding-right: 30px;
+            text-align: right;
+        }
+        div.img-header {
+            margin-bottom: 4px;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+        }
+        @media all and (max-width: 991px) {
+        }
+        @media all and (max-width: 768px) {
+            .all-timelines::before {
+                right: unset;
+                top: 0;
+            }
+            .single-timeline:nth-child(2n) .timeline-text {
+                padding-left: 30px;
+                padding-right: 0;
+                text-align: left;
+            }
+            .single-timeline:nth-child(2n) .t-square {
+                left: -6px;
+                right: unset;
+            }
+            .timeline-blank {
+                display: none;
+            }
+            .timeline-text {
+                width: 100%;
+            }
+            .single-timeline:nth-child(even) .timeline-text span {
+                text-align: left !important;
+            }
+        }
+        @media all and (max-width: 575px) {
+        }
+        @media all and (max-width: 360px) {
+            .all-timelines::before {
+                top: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="timeline-area">
+	<div class="container">
+		<div class="timelines">
+			<h2>Timelines</h2>
+		</div>
+		<div class="all-timelines">
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>March 1, 2020</h6> — First COVID-19 case
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>March 14, 2020</h6>— First two COVID-19 deaths
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>March 16, 2020</h6> — Public schools close
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>March 17, 2020</h6> — Bars and restaurants close
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>March 16, 2020</h6> — All non-essential workers must stay home
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>April</h6> - The lockdown has an immediate impact on the crime rate in the city. Most criminal categories drop by 30 to 70 percent, while there is a small increase in burglaries.
+                        <div class="img-header" style="margin-top:20px">Change in Crime Rates from March 2020 to April 2020</div>
+                        <div class="img"><img src="/assets/images/march-april.png"></div>
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>May 25, 2020</h6> — George Floyd dies in police custody, starting a wave of protests
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>May 28, 2020</h6> — First Black Lives Matter demonstrations in New York.
+                        Initially, protesters marched peacefully to City Hall in Lower Manhattan. Later, it turned violent with more
+                        than 40 arrests.[<a target="_blank" href="https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested">1</a>]
+                        <div class="img-header" style="margin-top:20px">Public Order Offenses: May 20 to July 10 2020</div>
+                        <div class="img"><iframe id="crimeTimeline" src="/assets/maps/public_order_offenses_map.html" style="" ></iframe></div>
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>May 29, 2020</h6> — Black Lives Matter protests took place around Barclays Center in Brooklyn with more than 125 arrests for <em>throwing bottles</em> [<a target="_blank" href="https://abc7ny.com/foley-square-protest-gwen-carr-union-eric-garner/6218834/">2</a>], 
+                        Foley Square in Manhattan and the Adam Clayton Powell Jr. State Office Building in Harlem.
+                        The daily protests continued in northern Brooklyn and Lower Manhattan until June 2, 2020.
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>May 31, 2020</h6> - In the aftermath of the Black Lives Matter demonstrations, a series of looting incidents took place in New York from May 31, 2020, to June 2, 2020, primarily in Manhattan and the Bronx.
+                            <div class="img-header" style="margin-top:20px;">Burglaries: May 20 to July 10 2020</div>
+                            <div class="img"><iframe id="crimeTimeline" src="/assets/maps/burglary_map.html" style="" ></iframe></div>
+                        </span>
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+                        <h6>June 1, 2020</h6> — Looting incidents peaked. The New York Mayor issued a curfew from 11 p.m. to 5 a.m. Most arrests were of black males.
+                        <div class="img-header" style="margin-top:20px;">Burglaries on June 1, 2020, by race</div>
+                        <div class="img"><iframe id="crimeTimeline" src="/assets/maps/burglary_activity.html" style="" ></iframe></div>
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>May/June - 2020</h6> — A study found that the George Floyd unrest lead to fewer shootings in 
+                        Staten Island compared to Manhattan and other boroughs, including Brooklyn and the Bronx.
+                        [<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9095435/">3</a>]
+
+                        <div class="img-header" style="margin-top:20px;">Dangerous Weapons Incidents: 30 Days Before George Floyd's Death</div>
+                        <div class="img"><iframe id="crimeTimeline" src="/assets/maps/dangerous_weapons_incidents_before.html" style="" ></iframe></div>
+
+                        <div class="img-header" style="margin-top:20px;">Dangerous Weapons Incidents: 30 Days After George Floyd's Death</div>
+                        <div class="img"><iframe id="crimeTimeline" src="/assets/maps/dangerous_weapons_incidents_after.html" style="" ></iframe></div>
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Date</h6> — Text
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Data</h6> — text
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Date</h6> — Text
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Data</h6> — text
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Date</h6> — Text
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Data</h6> — text
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Date</h6> — Text
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			
+            <!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h6>Data</h6> — text
+                    </span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
