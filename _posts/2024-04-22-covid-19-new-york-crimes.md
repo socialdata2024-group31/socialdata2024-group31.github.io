@@ -26,6 +26,7 @@ During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of
 Taking a deeper look into focused crime categories, showed interesting trends.
 
 <img src="/assets/images/plot.png" style="width: 100%;" >
+<img src="/assets/images/monthly_trends.png" style="width: 100%;" >
 ## References
 
 1. [George Floyd protests in NYC turn violent: Officers punched, pelted, more than 40 people arrested](https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested)
