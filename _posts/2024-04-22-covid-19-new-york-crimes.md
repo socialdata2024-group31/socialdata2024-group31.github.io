@@ -21,8 +21,11 @@ The Covid-19 pandemic changed urban life in New York, influencing everything fro
     <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 1748px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
 </div>
 
-More blah
+During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of 2022, they had almost returned to pre-pandemic levels. This suggests that as restrictions eased, some criminal activities rebounded, indicating the impact of social and economic factors on crime rates.
+<iframe src="/assets/images/Plot/crime_counts.html" width="100%" height="610"></iframe>
+Taking a deeper look into focused crime categories, showed interesting trends.
 
+<img src="/assets/images/plot.png" style="width: 100%;" >
 ## References
 
 1. [George Floyd protests in NYC turn violent: Officers punched, pelted, more than 40 people arrested](https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested)
