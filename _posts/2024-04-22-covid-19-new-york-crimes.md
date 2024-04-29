@@ -21,12 +21,16 @@ The Covid-19 pandemic changed urban life in New York, influencing everything fro
     <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 1748px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
 </div>
 
-During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of 2022, they had almost returned to pre-pandemic levels. This suggests that as restrictions eased, some criminal activities rebounded, indicating the impact of social and economic factors on crime rates.
+During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of 2022, they had almost returned to pre-pandemic levels. This suggests that as restrictions eased, some criminal activities rebounded, indicating the impact of social and economic factors on crime rates. The spike during May 2020 is noticeable but it still wasn't comparable to pre-pandemic numbers.
 <iframe src="/assets/images/Plot/crime_counts.html" width="100%" height="610"></iframe>
-Taking a deeper look into focused crime categories, showed interesting trends.
+Taking a deeper look into focused crime categories, showed interesting trends. In the year 2020 most of the investigated crimes increased quite noticeably, the most of was burglary, public order offenses and dangerous weapons. 
+
+As seen in the previous plot the majority of the increases were also not on the same level as pre-pandemic times. The noticeable exception is Burglary of May 2020. 
+
+What can be also seen is that for the pre and post pandemic crime occurences, the crime rates for some of them did return to the same stage and evened out for example Theft and Assault. But some decreases dramatically staying on the same number of occurences like during Covid restrictions. Those would be Alcohol and Drug related offenses.
 
 <img src="/assets/images/plot.png" style="width: 100%;" >
-In the next plot we can see how restricting and opening affected the trends.
+    To see closely how restricting and opening affected the crime rate, the next plot will show the year 2020 in weekly segments. In New York state of emergency was declared in the 10th week [ref], but evident decrease is first seen on 12th week as that was the time when schools, bars and restaurants were closed and also all the non-essential workers had to stay home. This only lasts until around the 16th week as from that time there is a discernible increase that only went up and peaked during the protests of George Floyd's death. This rise could be explained by economic instability as during lockdown many businesses were closed, which made them an easy target for break-ins. The burglary went up by 32 percent [ref https://www.politico.com/states/new-york/albany/story/2020/05/04/nyc-crime-rate-drops-during-coronavirus-but-commercial-break-ins-spike-1281986
 <img src="/assets/images/bar2020.png" style="width: 100%;" >
 Delving into demographics like race, gender and age to see if any interests, the african-american population leads the... 
 <img src="/assets/images/monthly_trends.png" style="width: 100%;" >
