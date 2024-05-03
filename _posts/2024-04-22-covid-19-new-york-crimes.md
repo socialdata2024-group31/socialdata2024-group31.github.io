@@ -18,14 +18,15 @@ image: assets/images/covid19.webp
 The Covid-19 pandemic changed urban life in New York, influencing everything from daily routines to crime rates. Our data story focuses on how crime trends shifted during the pandemic, beginning with a timeline that recaps key events and their effects on crime in the city.
 
 <div id="iframeContainer" style="position: relative; width: 100%; text-align: center;">
-    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 1748px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
+    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 3100px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
 </div>
 
 During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of 2022, they had almost returned to pre-pandemic levels. This suggests that as restrictions eased, some criminal activities rebounded, indicating the impact of social and economic factors on crime rates. The spike during May 2020 is noticeable but it still wasn't comparable to pre-pandemic numbers.
-<iframe src="/assets/images/Plot/crime_counts.html" width="100%" height="610"></iframe>
-Taking a deeper look into focused crime categories, showed interesting trends. In the year 2020 most of the investigated crimes increased quite noticeably, the most of was burglary, public order offenses and dangerous weapons. 
 
-As seen in the previous plot the majority of the increases were also not on the same level as pre-pandemic times. The noticeable exception is Burglary of May 2020. 
+<iframe src="/assets/images/Plot/crime_counts.html" width="100%" height="610"></iframe>
+Taking a deeper look into focused crime categories, showed interesting trends. In the year 2020 most of the investigated crimes increased quite noticeably, the most of was burglary, public order offenses and dangerous weapons.
+
+As seen in the previous plot the majority of the increases were also not on the same level as pre-pandemic times. The noticeable exception is Burglary of May 2020.
 
 What can be also seen is that for the pre and post pandemic crime occurences, the crime rates for some of them did return to the same stage and evened out for example Theft and Assault. But some decreases dramatically staying on the same number of occurences like during Covid restrictions. Those would be Alcohol and Drug related offenses.
 
@@ -36,9 +37,13 @@ Delving into demographics like race, gender and age to see if any interests, the
 <img src="/assets/images/monthly_trends.png" style="width: 100%;" >
 Comparing gen
 
-
 ## References
 
 1. [George Floyd protests in NYC turn violent: Officers punched, pelted, more than 40 people arrested](https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested)
 2. [Protests in George Floyd's death turn violent in Brooklyn; cops injured, hundreds arrested](https://abc7ny.com/foley-square-protest-gwen-carr-union-eric-garner/6218834/)
 3. [Violence in the Big Apple throughout the COVID-19 pandemic: A borough-specific analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9095435/)
+4. [Everything We Do and Don’t Know About New York’s Reopening](https://nymag.com/intelligencer/2020/08/when-will-new-york-reopen-phases-and-full-plan-explained.html)
+5. [Everything you need to know about Phase 3 reopening plans in NYC](https://www.timeout.com/newyork/news/everything-you-need-to-know-about-phase-3-reopening-plans-in-nyc-070120)
+6. [New York City’s Phase 4, Explained](https://www.nytimes.com/2020/07/20/nyregion/nyc-phase-4-reopening-coronavirus.html)
+7. [Governor Cuomo Announces COVID-19 Restrictions Lifted as 70% of Adult New Yorkers Have Received First Dose of COVID-19 Vaccine ](https://www.governor.ny.gov/news/governor-cuomo-announces-covid-19-restrictions-lifted-70-adult-new-yorkers-have-received-first)
+8. [Governor Cuomo Announces New York City Indoor Dining Will Expand to 75 Percent Capacity Beginning May 7](https://www.governor.ny.gov/news/governor-cuomo-announces-new-york-city-indoor-dining-will-expand-75-percent-capacity-beginning)
