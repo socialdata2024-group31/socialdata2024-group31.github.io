@@ -31,17 +31,11 @@ As seen in the previous plot the majority of the increases were also not on the 
 What can be also seen is that for the pre and post pandemic crime occurences, the crime rates for some of them did return to the same stage and evened out for example Theft and Assault. But some decreases dramatically staying on the same number of occurences like during Covid restrictions. Those would be Alcohol and Drug related offenses.
 
 <img src="/assets/images/plot.png" style="width: 100%;" >
-    To see closely how restricting and opening affected the crime rate, the next plot will show the year 2020 in weekly segments. In New York state of emergency was declared in the 10th week [[9]](https://www.investopedia.com/historical-timeline-of-covid-19-in-new-york-city-5071986), but evident decrease is first seen on 12th week as that was the time when schools, bars and restaurants were closed and also all the non-essential workers had to stay home. This only lasts until around the 16th week as from that time there is a discernible increase that only went up and peaked during the protests of George Floyd's death. This rise could be explained by economic instability as during lockdown many businesses were closed, which made them an easy target for break-ins. The burglary rate went up by 32 percent [[10]](https://www.politico.com/states/new-york/albany/story/2020/05/04/nyc-crime-rate-drops-during-coronavirus-but-commercial-break-ins-spike-1281986).
+    To see closely how restricting and opening affected the crime rate, the next plot will show the year 2020 in weekly segments. In New York state of emergency was declared in the 10th week [ref], but evident decrease is first seen on 12th week as that was the time when schools, bars and restaurants were closed and also all the non-essential workers had to stay home. This only lasts until around the 16th week as from that time there is a discernible increase that only went up and peaked during the protests of George Floyd's death. This rise could be explained by economic instability as during lockdown many businesses were closed, which made them an easy target for break-ins. The burglary went up by 32 percent [ref https://www.politico.com/states/new-york/albany/story/2020/05/04/nyc-crime-rate-drops-during-coronavirus-but-commercial-break-ins-spike-1281986].
 <img src="/assets/images/bar2020.png" style="width: 100%;" >
-Delving into demographics like race, gender and age to see if any interesting trends will pop up. the african-american population leads in all four years, but in 2020 there is an significant decrease in amount of crimes comitted through the whole year. 
+Delving into demographics like race, gender and age to see if any interests, the african-american population leads the... 
 <img src="/assets/images/monthly_trends.png" style="width: 100%;" >
-To probe more deeply, into the issue, they were grouped into our chosen focus categories to see real distribution in races and then also differentiated in gender, all for year 2020. The White Hispanic group stood out as the top ethnicity for alcohol-related crimes in the year 2020. One interesting thing to note would be the increase in Fraud related crimes by the second half of the year, as the pandemic affected many economically and socially. With the Coronavirus Aid, Relief and Economic Security (CARES) Act, that should have offered help to the people who needed it the most, there were many individuals who illegally obtained help, when they didn't need it or deserve it. In the paper by Zhang et al (2022), where they studied the connection of increasing Covid-19 cases and Frauds [[11]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9707139/). Fraud tends to thrive during downturns and crises, both of which are occurring with the COVID-19 pandemic. 
-<img src="/assets/images/monthly_trends_race.png" style="width: 100%;" >
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/monthly_trends_men.png" style="width: 50%;" >
-    <img src="/assets/images/monthly_trends_women.png" style="width: 50%;" >
-</div>
+Comparing gen
 
 ## References
 
@@ -53,8 +47,3 @@ To probe more deeply, into the issue, they were grouped into our chosen focus ca
 6. [New York City’s Phase 4, Explained](https://www.nytimes.com/2020/07/20/nyregion/nyc-phase-4-reopening-coronavirus.html)
 7. [Governor Cuomo Announces COVID-19 Restrictions Lifted as 70% of Adult New Yorkers Have Received First Dose of COVID-19 Vaccine ](https://www.governor.ny.gov/news/governor-cuomo-announces-covid-19-restrictions-lifted-70-adult-new-yorkers-have-received-first)
 8. [Governor Cuomo Announces New York City Indoor Dining Will Expand to 75 Percent Capacity Beginning May 7](https://www.governor.ny.gov/news/governor-cuomo-announces-new-york-city-indoor-dining-will-expand-75-percent-capacity-beginning)
-9. [A Historical Timeline of COVID-19 in New York City](https://www.investopedia.com/historical-timeline-of-covid-19-in-new-york-city-5071986)
-10. [NYC crime rate drops during coronavirus, but commercial break-ins spike](https://www.politico.com/states/new-york/albany/story/2020/05/04/nyc-crime-rate-drops-during-coronavirus-but-commercial-break-ins-spike-1281986)
-11. [Vulnerability and fraud: evidence from the COVID-19 pandemic]
-(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9707139/)
-
