@@ -55,6 +55,5 @@ To probe more deeply, into the issue, they were grouped into our chosen focus ca
 8. [Governor Cuomo Announces New York City Indoor Dining Will Expand to 75 Percent Capacity Beginning May 7](https://www.governor.ny.gov/news/governor-cuomo-announces-new-york-city-indoor-dining-will-expand-75-percent-capacity-beginning)
 9. [A Historical Timeline of COVID-19 in New York City](https://www.investopedia.com/historical-timeline-of-covid-19-in-new-york-city-5071986)
 10. [NYC crime rate drops during coronavirus, but commercial break-ins spike](https://www.politico.com/states/new-york/albany/story/2020/05/04/nyc-crime-rate-drops-during-coronavirus-but-commercial-break-ins-spike-1281986)
-11. [Vulnerability and fraud: evidence from the COVID-19 pandemic]
-(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9707139/)
+11. [Vulnerability and fraud: evidence from the COVID-19 pandemic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9707139/)
 
