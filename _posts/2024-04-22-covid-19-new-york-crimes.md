@@ -18,7 +18,7 @@ image: assets/images/covid19.webp
 The Covid-19 pandemic changed urban life in New York, influencing everything from daily routines to crime rates. Our data story focuses on how crime trends shifted during the pandemic, beginning with a timeline that recaps key events and their effects on crime in the city.
 
 <div id="iframeContainer" style="position: relative; width: 100%; text-align: center;">
-    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 3100px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
+    <iframe id="crimeTimeline" src="/assets/images/timeline/timeline.html" scrolling="no" style="min-height: 3374px; width: 1240px; margin: 0 auto; display: block; border: none; position: absolute; left: -255px;" onload="adjustIframeHeight()"></iframe>
 </div>
 
 During the Covid-19 pandemic, crime rates were lower than in 2019. By the end of 2022, they had almost returned to pre-pandemic levels. This suggests that as restrictions eased, some criminal activities rebounded, indicating the impact of social and economic factors on crime rates. The spike during May 2020 is noticeable but it still wasn't comparable to pre-pandemic numbers.
@@ -44,12 +44,13 @@ When comparing between the two genders, there isn't much of a surprise as more c
 </div>
 Another demographic data observed was the age of the criminals, that showed that the majority of crimes were comitter by people between the age 25-44, which makes sense. The two other age groups of concern are 18-24 and 45-64.
 <iframe src="/assets/images/crime_heatmap.html" width="100%" height="610"></iframe>
-After properly exploring the data, what was found interesting were the Fraudulent crimes. It is not a crime one would think would be of concern, but as people were isolated, they were more easy to fall into schemes of seemingly friendly strangers and as mentioned before people would misuse the help offered by the CARES Act and abuse it. 
+After properly exploring the data, what was found interesting were the Fraudulent crimes. It is not a crime one would think would be of concern, but as people were isolated, they were more easy to fall into schemes of seemingly friendly strangers and as mentioned before people would misuse the help offered by the CARES Act and abuse it.
 
-From the data it cannot be confirmed which type of fraudulent act it is, but it is seen that during time of COVID-19 the problem only grew larger as can be observed in the plot. The average of 2019 shown in the plot, has been overcame in 2021 many times. 
+From the data it cannot be confirmed which type of fraudulent act it is, but it is seen that during time of COVID-19 the problem only grew larger as can be observed in the plot. The average of 2019 shown in the plot, has been overcame in 2021 many times.
 
 In the first 9 months of 2020, Americans have reporterdly lost over 145 million dollars [[13]](https://www.nytimes.com/2020/09/23/us/coronavirus-scams-ftc-reports.html). People fell to scams related to fake medicine, covid tests and more, as people become more vulnerable in stressful situations. For the crimes were people defrauded the government, as about 5 trillion dollars have been provided and there is no clear estimate of how much money from that was stolen. Some claim its less than 10 billion dollars, some say it could near almost 100 billion dollars [[14]](https://www.nytimes.com/2022/08/16/business/economy/covid-pandemic-fraud.html) [[15]](https://www.nbcnews.com/politics/justice-department/biggest-fraud-generation-looting-covid-relief-program-known-ppp-n1279664). Many call it the largest fraud in U.S. history, most of it will never be recovered and it will take decades of prosecuting to get all the guilty parties behind bars.
 <img src="/assets/images/trends_fraud.png" style="width: 100%;" >
+
 ## References
 
 1. [George Floyd protests in NYC turn violent: Officers punched, pelted, more than 40 people arrested](https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested)
@@ -67,3 +68,4 @@ In the first 9 months of 2020, Americans have reporterdly lost over 145 million 
 13. [Americans Have Lost $145 Million to Coronavirus Fraud](https://www.nytimes.com/2020/09/23/us/coronavirus-scams-ftc-reports.html)
 14. [Prosecutors Struggle to Catch Up to a Tidal Wave of Pandemic Fraud](https://www.nytimes.com/2022/08/16/business/economy/covid-pandemic-fraud.html)
 15. [Biggest fraud in a generation': The looting of the Covid relief plan known as PPP](https://www.nbcnews.com/politics/justice-department/biggest-fraud-generation-looting-covid-relief-program-known-ppp-n1279664)
+16. [Cuomo Imposes Tight Virus Rules on Areas Hit by Spikes Across State](https://www.nytimes.com/2020/10/06/nyregion/cuomo-shutdown-coronavirus.html)
