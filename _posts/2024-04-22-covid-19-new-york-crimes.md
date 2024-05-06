@@ -69,3 +69,5 @@ In the first 9 months of 2020, Americans have reporterdly lost over 145 million 
 14. [Prosecutors Struggle to Catch Up to a Tidal Wave of Pandemic Fraud](https://www.nytimes.com/2022/08/16/business/economy/covid-pandemic-fraud.html)
 15. [Biggest fraud in a generation': The looting of the Covid relief plan known as PPP](https://www.nbcnews.com/politics/justice-department/biggest-fraud-generation-looting-covid-relief-program-known-ppp-n1279664)
 16. [Cuomo Imposes Tight Virus Rules on Areas Hit by Spikes Across State](https://www.nytimes.com/2020/10/06/nyregion/cuomo-shutdown-coronavirus.html)
+17. [Protesters flood NYC to rally against death of George Floyd](https://nypost.com/2020/05/29/protestors-flood-nyc-to-rally-against-death-of-george-floyd/)
+18. [A Weekend of Anger and Defiance Across New York City](https://www.newyorker.com/news/our-local-correspondents/a-weekend-of-anger-and-defiance-across-new-york-city-george-floyd-police-protesters)
