@@ -71,3 +71,4 @@ In the first 9 months of 2020, Americans have reporterdly lost over 145 million 
 16. [Cuomo Imposes Tight Virus Rules on Areas Hit by Spikes Across State](https://www.nytimes.com/2020/10/06/nyregion/cuomo-shutdown-coronavirus.html)
 17. [Protesters flood NYC to rally against death of George Floyd](https://nypost.com/2020/05/29/protestors-flood-nyc-to-rally-against-death-of-george-floyd/)
 18. [A Weekend of Anger and Defiance Across New York City](https://www.newyorker.com/news/our-local-correspondents/a-weekend-of-anger-and-defiance-across-new-york-city-george-floyd-police-protesters)
+19. [Protests and looting despite curfew in New York City](https://www.fox5ny.com/news/protests-and-looting-despite-curfew-in-new-york-city)
