@@ -63,6 +63,8 @@ In the first 9 months of 2020, Americans have reporterdly lost over 145 million 
 
 Overall, during the turbulent times of pandemic many people fell victim to panic and were defrauded and numerous other individuals took advantage of their fellow men and also the government to gain wealth that didn't belong to them. It is hard to say how much money was lost as many people never reported the fraud as they were too ashamed or thought it wouldn't matter anyway.
 
+Out notebook can be found <a target="_black" href="/assets/notebook.ipynb">here</a>.
+
 ## References
 
 1. [George Floyd protests in NYC turn violent: Officers punched, pelted, more than 40 people arrested](https://www.foxnews.com/us/george-floyd-protests-nyc-turn-violent-several-arrested)
