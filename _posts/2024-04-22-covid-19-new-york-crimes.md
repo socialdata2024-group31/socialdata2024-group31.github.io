@@ -27,8 +27,6 @@ During the Covid-19 pandemic, crime rates were generally lower than in 2019. But
 
 Taking a deeper look into crime categories shows interesting trends. In 2020, some of the investigated crimes increased noticeably, including burglary, public order offenses and dangerous weapons.
 
-As seen in the previous plots, the majority of the increases were also not on the same level as pre-pandemic times. Only burglaries in May 2020 exceed both pre- and post-pandemic levels.
-
 When comparing pre- and post-pandemic levels, we see that the crime rates for some offenses, such as Theft and Assault, eventually stabilized to pre-pandemic levels, while others, like Alcohol and Drug-related offenses, decreased dramatically and stabilized at the same level as during the Covid restrictions, indicating a lasting shift in behavior or changes in how these crimes are policed and prosecuted.
 
 <img src="/assets/images/plot.png" style="width: 100%;" >
